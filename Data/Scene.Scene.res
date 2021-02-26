@@ -147,7 +147,7 @@
               <contentPath dataType="String">Data\Weapons\GunLight.Prefab.res</contentPath>
             </_x003C_DefaultGun_x003E_k__BackingField>
             <_x003C_FireKey_x003E_k__BackingField dataType="Enum" type="Duality.Input.Key" name="Space" value="51" />
-            <_x003C_Gamepad_x003E_k__BackingField dataType="Bool">false</_x003C_Gamepad_x003E_k__BackingField>
+            <_x003C_Gamepad_x003E_k__BackingField dataType="Bool">true</_x003C_Gamepad_x003E_k__BackingField>
             <_x003C_LeftKey_x003E_k__BackingField dataType="Enum" type="Duality.Input.Key" name="Left" value="47" />
             <_x003C_ReverseKey_x003E_k__BackingField dataType="Enum" type="Duality.Input.Key" name="Down" value="46" />
             <_x003C_RightKey_x003E_k__BackingField dataType="Enum" type="Duality.Input.Key" name="Right" value="48" />
@@ -488,8 +488,8 @@
             <_x003C_DefaultGun_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
               <contentPath dataType="String">Data\Weapons\GunLight.Prefab.res</contentPath>
             </_x003C_DefaultGun_x003E_k__BackingField>
-            <_x003C_FireKey_x003E_k__BackingField dataType="Enum" type="Duality.Input.Key" name="ShiftLeft" value="1" />
-            <_x003C_Gamepad_x003E_k__BackingField dataType="Bool">true</_x003C_Gamepad_x003E_k__BackingField>
+            <_x003C_FireKey_x003E_k__BackingField dataType="Enum" type="Duality.Input.Key" name="Space" value="51" />
+            <_x003C_Gamepad_x003E_k__BackingField dataType="Bool">false</_x003C_Gamepad_x003E_k__BackingField>
             <_x003C_LeftKey_x003E_k__BackingField dataType="Enum" type="Duality.Input.Key" name="A" value="83" />
             <_x003C_ReverseKey_x003E_k__BackingField dataType="Enum" type="Duality.Input.Key" name="S" value="101" />
             <_x003C_RightKey_x003E_k__BackingField dataType="Enum" type="Duality.Input.Key" name="D" value="86" />

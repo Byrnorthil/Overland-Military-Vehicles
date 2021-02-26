@@ -57,7 +57,7 @@ namespace Overland_Military_Vehicles
 
             if (Gamepad && DualityApp.Gamepads.Count > 1)
             {
-                gamepad = DualityApp.Gamepads.ElementAt(1);
+                gamepad = DualityApp.Gamepads.ElementAt(0);
             }
 
             if (GamepadAvailable)

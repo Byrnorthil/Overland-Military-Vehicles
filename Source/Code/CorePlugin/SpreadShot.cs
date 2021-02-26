@@ -20,7 +20,8 @@ namespace Overland_Military_Vehicles
             for (int i = 0; i < NumShots; i++)
             {
                 GameObject bullet = NewProjectile();
-                bullet.Transform.Angle += (float)(random.NextDouble() * 2 - 1) * Spread;
+                RigidBody body = bullet.GetComponent<RigidBody>();
+                body.LinearVelocity = Vector2.FromAngleLength(GameObj.Transform.Angle + (float)(random.NextDouble() * 2 - 1) * Spread, Speed);
                 if (Scene != null) Scene.AddObject(bullet);
             }
         }

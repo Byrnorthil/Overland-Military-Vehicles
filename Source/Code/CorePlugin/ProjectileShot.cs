@@ -22,6 +22,8 @@ namespace Overland_Military_Vehicles
         public virtual void Fire()
         {
             GameObject bullet = NewProjectile();
+            RigidBody body = bullet.GetComponent<RigidBody>();
+            body.LinearVelocity = Vector2.FromAngleLength(GameObj.Transform.Angle, Speed);
             if (Scene != null) Scene.AddObject(bullet);
         }
 
@@ -29,10 +31,9 @@ namespace Overland_Military_Vehicles
         {
             Vector3 firingOffset = new Vector3(sprite.Rect.Top);
             GameObject bullet = ProjectilePrefab.Res.Instantiate(GameObj.Transform.Pos + GameObj.Transform.GetWorldVector(firingOffset), GameObj.Transform.Angle);
-            RigidBody body = bullet.GetComponent<RigidBody>();
-            body.LinearVelocity = Vector2.FromAngleLength(GameObj.Transform.Angle, Speed);
             if (parentBody != null)
             {
+                RigidBody body = bullet.GetComponent<RigidBody>();
                 body.LinearVelocity += parentBody.LinearVelocity;
                 parentBody.ApplyLocalImpulse(Vector2.UnitY * Recoil * parentBody.Mass);
             }

@@ -367,7 +367,7 @@
           </_x003C_Color_x003E_k__BackingField>
           <_x003C_Height_x003E_k__BackingField dataType="Float">20</_x003C_Height_x003E_k__BackingField>
           <_x003C_Length_x003E_k__BackingField dataType="Float">200</_x003C_Length_x003E_k__BackingField>
-          <_x003C_YOffset_x003E_k__BackingField dataType="Float">200</_x003C_YOffset_x003E_k__BackingField>
+          <_x003C_YOffset_x003E_k__BackingField dataType="Float">250</_x003C_YOffset_x003E_k__BackingField>
           <active dataType="Bool">true</active>
           <gameobj dataType="ObjectRef">254077421</gameobj>
           <meter dataType="ObjectRef">3097250208</meter>
