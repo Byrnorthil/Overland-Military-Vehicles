@@ -8,7 +8,7 @@
     <active dataType="Bool">true</active>
     <children />
     <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="4040196417">
-      <_items dataType="Array" type="Duality.Component[]" id="3451120046">
+      <_items dataType="Array" type="Duality.Component[]" id="3451120046" length="8">
         <item dataType="Struct" type="Duality.Components.Transform" id="2971336184">
           <active dataType="Bool">true</active>
           <angle dataType="Float">0</angle>
@@ -69,8 +69,23 @@
           <gameobj dataType="ObjectRef">2914058966</gameobj>
           <shot dataType="ObjectRef">3336124524</shot>
         </item>
+        <item dataType="Struct" type="Overland_Military_Vehicles.MeterRenderer" id="3548197033">
+          <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
+            <A dataType="Byte">255</A>
+            <B dataType="Byte">0</B>
+            <G dataType="Byte">255</G>
+            <R dataType="Byte">255</R>
+          </_x003C_Color_x003E_k__BackingField>
+          <_x003C_Height_x003E_k__BackingField dataType="Float">20</_x003C_Height_x003E_k__BackingField>
+          <_x003C_Length_x003E_k__BackingField dataType="Float">200</_x003C_Length_x003E_k__BackingField>
+          <_x003C_YOffset_x003E_k__BackingField dataType="Float">200</_x003C_YOffset_x003E_k__BackingField>
+          <active dataType="Bool">true</active>
+          <gameobj dataType="ObjectRef">2914058966</gameobj>
+          <meter dataType="ObjectRef">1462264457</meter>
+          <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+        </item>
       </_items>
-      <_size dataType="Int">4</_size>
+      <_size dataType="Int">5</_size>
     </compList>
     <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3316898272" surrogate="true">
       <header />
@@ -80,12 +95,14 @@
           <item dataType="Type" id="76097818" value="Duality.Components.Renderers.SpriteRenderer" />
           <item dataType="Type" id="173020566" value="Overland_Military_Vehicles.FullAuto" />
           <item dataType="Type" id="852157178" value="Overland_Military_Vehicles.SpreadShot" />
+          <item dataType="Type" id="3029259446" value="Overland_Military_Vehicles.MeterRenderer" />
         </keys>
         <values dataType="Array" type="System.Object[]" id="3173630152">
           <item dataType="ObjectRef">2971336184</item>
           <item dataType="ObjectRef">87710950</item>
           <item dataType="ObjectRef">1462264457</item>
           <item dataType="ObjectRef">3336124524</item>
+          <item dataType="ObjectRef">3548197033</item>
         </values>
       </body>
     </compMap>

@@ -8,7 +8,7 @@
     <active dataType="Bool">true</active>
     <children />
     <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="1303099854">
-      <_items dataType="Array" type="Duality.Component[]" id="1922976208">
+      <_items dataType="Array" type="Duality.Component[]" id="1922976208" length="8">
         <item dataType="Struct" type="Duality.Components.Transform" id="311354639">
           <active dataType="Bool">true</active>
           <angle dataType="Float">0</angle>
@@ -52,6 +52,7 @@
             <contentPath dataType="String">Data\Bullets\BulletLight.Prefab.res</contentPath>
           </_x003C_ProjectilePrefab_x003E_k__BackingField>
           <_x003C_Recoil_x003E_k__BackingField dataType="Float">0.2</_x003C_Recoil_x003E_k__BackingField>
+          <_x003C_Speed_x003E_k__BackingField dataType="Float">50</_x003C_Speed_x003E_k__BackingField>
           <_x003C_Spread_x003E_k__BackingField dataType="Float">0.2</_x003C_Spread_x003E_k__BackingField>
           <active dataType="Bool">true</active>
           <gameobj dataType="ObjectRef">254077421</gameobj>
@@ -123,6 +124,7 @@
                             <contentPath dataType="String">Data\Bullets\BulletLight.Prefab.res</contentPath>
                           </_x003C_ProjectilePrefab_x003E_k__BackingField>
                           <_x003C_Recoil_x003E_k__BackingField dataType="Float">0.2</_x003C_Recoil_x003E_k__BackingField>
+                          <_x003C_Speed_x003E_k__BackingField dataType="Float">50</_x003C_Speed_x003E_k__BackingField>
                           <_x003C_Spread_x003E_k__BackingField dataType="Float">0.2</_x003C_Spread_x003E_k__BackingField>
                           <active dataType="Bool">true</active>
                           <gameobj dataType="ObjectRef">2449656160</gameobj>
@@ -264,21 +266,7 @@
                     </color>
                     <gameobj dataType="ObjectRef">3636835828</gameobj>
                   </item>
-                  <item dataType="Struct" type="Overland_Military_Vehicles.HealthBarRenderer" id="3364360801">
-                    <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
-                      <A dataType="Byte">255</A>
-                      <B dataType="Byte">0</B>
-                      <G dataType="Byte">0</G>
-                      <R dataType="Byte">255</R>
-                    </_x003C_Color_x003E_k__BackingField>
-                    <_x003C_Height_x003E_k__BackingField dataType="Float">20</_x003C_Height_x003E_k__BackingField>
-                    <_x003C_Length_x003E_k__BackingField dataType="Float">200</_x003C_Length_x003E_k__BackingField>
-                    <_x003C_YOffset_x003E_k__BackingField dataType="Float">200</_x003C_YOffset_x003E_k__BackingField>
-                    <active dataType="Bool">true</active>
-                    <gameobj dataType="ObjectRef">3636835828</gameobj>
-                    <meter dataType="ObjectRef">3380519234</meter>
-                    <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
-                  </item>
+                  <item />
                   <item dataType="ObjectRef">1768541422</item>
                 </_items>
                 <_size dataType="Int">7</_size>
@@ -293,7 +281,6 @@
                     <item dataType="Type" id="222092000" value="Overland_Military_Vehicles.PlayerController" />
                     <item dataType="Type" id="745740898" value="Overland_Military_Vehicles.DamageHandler" />
                     <item dataType="Type" id="786243772" value="Overland_Military_Vehicles.Flag" />
-                    <item dataType="Type" id="3754504382" value="Overland_Military_Vehicles.HealthBarRenderer" />
                   </keys>
                   <values dataType="Array" type="System.Object[]" id="3612859318">
                     <item dataType="ObjectRef">3694113046</item>
@@ -302,7 +289,6 @@
                     <item dataType="ObjectRef">1768541422</item>
                     <item dataType="ObjectRef">3380519234</item>
                     <item dataType="ObjectRef">1415748977</item>
-                    <item dataType="ObjectRef">3364360801</item>
                   </values>
                 </body>
               </compMap>
@@ -372,8 +358,23 @@
           <gameobj dataType="ObjectRef">254077421</gameobj>
           <shot dataType="ObjectRef">676142979</shot>
         </item>
+        <item dataType="Struct" type="Overland_Military_Vehicles.MeterRenderer" id="888215488">
+          <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
+            <A dataType="Byte">255</A>
+            <B dataType="Byte">0</B>
+            <G dataType="Byte">255</G>
+            <R dataType="Byte">255</R>
+          </_x003C_Color_x003E_k__BackingField>
+          <_x003C_Height_x003E_k__BackingField dataType="Float">20</_x003C_Height_x003E_k__BackingField>
+          <_x003C_Length_x003E_k__BackingField dataType="Float">200</_x003C_Length_x003E_k__BackingField>
+          <_x003C_YOffset_x003E_k__BackingField dataType="Float">200</_x003C_YOffset_x003E_k__BackingField>
+          <active dataType="Bool">true</active>
+          <gameobj dataType="ObjectRef">254077421</gameobj>
+          <meter dataType="ObjectRef">3097250208</meter>
+          <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+        </item>
       </_items>
-      <_size dataType="Int">4</_size>
+      <_size dataType="Int">5</_size>
     </compList>
     <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2072681802" surrogate="true">
       <header />
@@ -383,12 +384,14 @@
           <item dataType="ObjectRef">2956592334</item>
           <item dataType="ObjectRef">305854748</item>
           <item dataType="ObjectRef">1257985490</item>
+          <item dataType="Type" id="2941138340" value="Overland_Military_Vehicles.MeterRenderer" />
         </keys>
         <values dataType="Array" type="System.Object[]" id="2301716470">
           <item dataType="ObjectRef">311354639</item>
           <item dataType="ObjectRef">1722696701</item>
           <item dataType="ObjectRef">3097250208</item>
           <item dataType="ObjectRef">676142979</item>
+          <item dataType="ObjectRef">888215488</item>
         </values>
       </body>
     </compMap>

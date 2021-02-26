@@ -21,6 +21,12 @@ namespace Overland_Military_Vehicles
 
         public virtual void Fire()
         {
+            GameObject bullet = NewProjectile();
+            if (Scene != null) Scene.AddObject(bullet);
+        }
+
+        protected virtual GameObject NewProjectile()
+        {
             Vector3 firingOffset = new Vector3(sprite.Rect.Top);
             GameObject bullet = ProjectilePrefab.Res.Instantiate(GameObj.Transform.Pos + GameObj.Transform.GetWorldVector(firingOffset), GameObj.Transform.Angle);
             RigidBody body = bullet.GetComponent<RigidBody>();
@@ -32,7 +38,7 @@ namespace Overland_Military_Vehicles
             }
             Flag parentFlag = GameObj.Parent.GetComponent<Flag>();
             if (parentFlag != null) bullet.GetComponent<Flag>().Color = parentFlag.Color;
-            if (Scene != null) Scene.AddObject(bullet);
+            return bullet;
         }
 
         public void OnActivate()

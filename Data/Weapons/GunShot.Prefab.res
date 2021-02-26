@@ -4,7 +4,7 @@
     <active dataType="Bool">true</active>
     <children />
     <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="3614574349">
-      <_items dataType="Array" type="Duality.Component[]" id="3882893094">
+      <_items dataType="Array" type="Duality.Component[]" id="3882893094" length="8">
         <item dataType="Struct" type="Duality.Components.Transform" id="896768748">
           <active dataType="Bool">true</active>
           <angle dataType="Float">0</angle>
@@ -56,6 +56,7 @@
             <contentPath dataType="String">Data\Bullets\BulletShot.Prefab.res</contentPath>
           </_x003C_ProjectilePrefab_x003E_k__BackingField>
           <_x003C_Recoil_x003E_k__BackingField dataType="Float">0.65</_x003C_Recoil_x003E_k__BackingField>
+          <_x003C_Speed_x003E_k__BackingField dataType="Float">50</_x003C_Speed_x003E_k__BackingField>
           <_x003C_Spread_x003E_k__BackingField dataType="Float">0.35</_x003C_Spread_x003E_k__BackingField>
           <active dataType="Bool">true</active>
           <gameobj dataType="ObjectRef">839491530</gameobj>
@@ -125,6 +126,7 @@
                           <_x003C_NumShots_x003E_k__BackingField dataType="Int">5</_x003C_NumShots_x003E_k__BackingField>
                           <_x003C_ProjectilePrefab_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]" />
                           <_x003C_Recoil_x003E_k__BackingField dataType="Float">0.2</_x003C_Recoil_x003E_k__BackingField>
+                          <_x003C_Speed_x003E_k__BackingField dataType="Float">50</_x003C_Speed_x003E_k__BackingField>
                           <_x003C_Spread_x003E_k__BackingField dataType="Float">0.3</_x003C_Spread_x003E_k__BackingField>
                           <active dataType="Bool">true</active>
                           <gameobj dataType="ObjectRef">1210854399</gameobj>
@@ -339,8 +341,23 @@
           <gameobj dataType="ObjectRef">839491530</gameobj>
           <shot dataType="ObjectRef">1261557088</shot>
         </item>
+        <item dataType="Struct" type="Overland_Military_Vehicles.MeterRenderer" id="1473629597">
+          <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
+            <A dataType="Byte">255</A>
+            <B dataType="Byte">0</B>
+            <G dataType="Byte">255</G>
+            <R dataType="Byte">255</R>
+          </_x003C_Color_x003E_k__BackingField>
+          <_x003C_Height_x003E_k__BackingField dataType="Float">20</_x003C_Height_x003E_k__BackingField>
+          <_x003C_Length_x003E_k__BackingField dataType="Float">200</_x003C_Length_x003E_k__BackingField>
+          <_x003C_YOffset_x003E_k__BackingField dataType="Float">200</_x003C_YOffset_x003E_k__BackingField>
+          <active dataType="Bool">true</active>
+          <gameobj dataType="ObjectRef">839491530</gameobj>
+          <meter dataType="ObjectRef">751181034</meter>
+          <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+        </item>
       </_items>
-      <_size dataType="Int">4</_size>
+      <_size dataType="Int">5</_size>
     </compList>
     <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1298086328" surrogate="true">
       <header />
@@ -350,12 +367,14 @@
           <item dataType="ObjectRef">3981886538</item>
           <item dataType="ObjectRef">1094629566</item>
           <item dataType="Type" id="82953294" value="Overland_Military_Vehicles.SemiAuto" />
+          <item dataType="Type" id="2791871050" value="Overland_Military_Vehicles.MeterRenderer" />
         </keys>
         <values dataType="Array" type="System.Object[]" id="4223008384">
           <item dataType="ObjectRef">896768748</item>
           <item dataType="ObjectRef">2308110810</item>
           <item dataType="ObjectRef">1261557088</item>
           <item dataType="ObjectRef">751181034</item>
+          <item dataType="ObjectRef">1473629597</item>
         </values>
       </body>
     </compMap>

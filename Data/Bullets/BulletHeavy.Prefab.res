@@ -88,9 +88,7 @@
         <item dataType="Struct" type="Overland_Military_Vehicles.BulletController" id="4284004470">
           <_x003C_Damage_x003E_k__BackingField dataType="Float">15</_x003C_Damage_x003E_k__BackingField>
           <_x003C_LifeTime_x003E_k__BackingField dataType="Float">90</_x003C_LifeTime_x003E_k__BackingField>
-          <_x003C_Speed_x003E_k__BackingField dataType="Float">45</_x003C_Speed_x003E_k__BackingField>
           <active dataType="Bool">true</active>
-          <body dataType="ObjectRef">3968887227</body>
           <gameobj dataType="ObjectRef">138990443</gameobj>
           <lifeTimeCounter dataType="Float">0</lifeTimeCounter>
         </item>

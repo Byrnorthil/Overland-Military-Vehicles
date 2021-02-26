@@ -74,8 +74,23 @@
           <gameobj dataType="ObjectRef">2208043430</gameobj>
           <shot dataType="ObjectRef">2652526154</shot>
         </item>
+        <item dataType="Struct" type="Overland_Military_Vehicles.MeterRenderer" id="2842181497">
+          <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
+            <A dataType="Byte">255</A>
+            <B dataType="Byte">0</B>
+            <G dataType="Byte">255</G>
+            <R dataType="Byte">255</R>
+          </_x003C_Color_x003E_k__BackingField>
+          <_x003C_Height_x003E_k__BackingField dataType="Float">20</_x003C_Height_x003E_k__BackingField>
+          <_x003C_Length_x003E_k__BackingField dataType="Float">200</_x003C_Length_x003E_k__BackingField>
+          <_x003C_YOffset_x003E_k__BackingField dataType="Float">200</_x003C_YOffset_x003E_k__BackingField>
+          <active dataType="Bool">true</active>
+          <gameobj dataType="ObjectRef">2208043430</gameobj>
+          <meter dataType="ObjectRef">2119732934</meter>
+          <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+        </item>
       </_items>
-      <_size dataType="Int">5</_size>
+      <_size dataType="Int">6</_size>
     </compList>
     <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1712520800" surrogate="true">
       <header />
@@ -86,6 +101,7 @@
           <item dataType="Type" id="533080886" value="Overland_Military_Vehicles.SemiAuto" />
           <item dataType="Type" id="895634938" value="Overland_Military_Vehicles.ProjectileShot" />
           <item dataType="Type" id="924601814" value="Overland_Military_Vehicles.LaserRenderer" />
+          <item dataType="Type" id="1500680986" value="Overland_Military_Vehicles.MeterRenderer" />
         </keys>
         <values dataType="Array" type="System.Object[]" id="2857743720">
           <item dataType="ObjectRef">2265320648</item>
@@ -93,6 +109,7 @@
           <item dataType="ObjectRef">2119732934</item>
           <item dataType="ObjectRef">2652526154</item>
           <item dataType="ObjectRef">3000899495</item>
+          <item dataType="ObjectRef">2842181497</item>
         </values>
       </body>
     </compMap>

@@ -7,7 +7,7 @@ using Duality;
 namespace Overland_Military_Vehicles
 {
     [RequiredComponent(typeof(ShotBehavior))]
-    public abstract class WeaponController : Component, ICmpInitializable
+    public abstract class WeaponController : Component, ICmpInitializable, Meter
     {
         protected ShotBehavior shot;
         public PlayerController controller;
@@ -47,6 +47,16 @@ namespace Overland_Military_Vehicles
             {
                 Scene.RemoveObject(GameObj);
             }
+        }
+
+        public float CurrentValue()
+        {
+            return AmmoCount - ammoUsed;
+        }
+
+        public float MaxValue()
+        {
+            return AmmoCount;
         }
     }
 }

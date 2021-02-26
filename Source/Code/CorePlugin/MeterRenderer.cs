@@ -12,7 +12,7 @@ namespace Overland_Military_Vehicles
     [EditorHintCategory("Graphics")]
     [RequiredComponent(typeof(Transform))]
     [RequiredComponent(typeof(Meter))]
-    public class HealthBarRenderer : Renderer, ICmpInitializable
+    public class MeterRenderer : Renderer, ICmpInitializable
     {
         public ColorRgba Color { get; set; } = ColorRgba.Red;
         public float Length { get; set; } = 200f;
@@ -32,7 +32,7 @@ namespace Overland_Military_Vehicles
         {
             canvas.Begin(device);
 
-            canvas.State.ColorTint = ColorRgba.Red;
+            canvas.State.ColorTint = Color;
             float displayLength = meter.CurrentValue() / meter.MaxValue() * Length;
             canvas.FillRect(GameObj.Transform.Pos.X - Length / 2, GameObj.Transform.Pos.Y - Height / 2 + YOffset, displayLength, Height);
 

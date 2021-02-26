@@ -60,6 +60,7 @@
                   <contentPath dataType="String">Data\Bullets\BulletTurret.Prefab.res</contentPath>
                 </_x003C_ProjectilePrefab_x003E_k__BackingField>
                 <_x003C_Recoil_x003E_k__BackingField dataType="Float">0</_x003C_Recoil_x003E_k__BackingField>
+                <_x003C_Speed_x003E_k__BackingField dataType="Float">50</_x003C_Speed_x003E_k__BackingField>
                 <_x003C_Spread_x003E_k__BackingField dataType="Float">0.1</_x003C_Spread_x003E_k__BackingField>
                 <active dataType="Bool">true</active>
                 <gameobj dataType="ObjectRef">2549169257</gameobj>

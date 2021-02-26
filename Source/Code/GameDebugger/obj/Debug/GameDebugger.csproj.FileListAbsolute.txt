@@ -1,6 +1,5 @@
 C:\Users\jedwa\Documents\New folder\Overland Military Vehicles\Source\Code\GameDebugger\bin\Debug\GameDebugger.exe
 C:\Users\jedwa\Documents\New folder\Overland Military Vehicles\Source\Code\GameDebugger\bin\Debug\GameDebugger.pdb
-C:\Users\jedwa\Documents\New folder\Overland Military Vehicles\Source\Code\GameDebugger\obj\Debug\GameDebugger.csprojAssemblyReference.cache
 C:\Users\jedwa\Documents\New folder\Overland Military Vehicles\Source\Code\GameDebugger\obj\Debug\GameDebugger.csproj.CoreCompileInputs.cache
 C:\Users\jedwa\Documents\New folder\Overland Military Vehicles\Source\Code\GameDebugger\obj\Debug\GameDebugger.exe
 C:\Users\jedwa\Documents\New folder\Overland Military Vehicles\Source\Code\GameDebugger\obj\Debug\GameDebugger.pdb

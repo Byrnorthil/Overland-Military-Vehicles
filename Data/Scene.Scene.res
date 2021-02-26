@@ -142,21 +142,6 @@
             </color>
             <gameobj dataType="ObjectRef">3636835828</gameobj>
           </item>
-          <item dataType="Struct" type="Overland_Military_Vehicles.HealthBarRenderer" id="3364360801">
-            <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
-              <A dataType="Byte">255</A>
-              <B dataType="Byte">0</B>
-              <G dataType="Byte">0</G>
-              <R dataType="Byte">255</R>
-            </_x003C_Color_x003E_k__BackingField>
-            <_x003C_Height_x003E_k__BackingField dataType="Float">20</_x003C_Height_x003E_k__BackingField>
-            <_x003C_Length_x003E_k__BackingField dataType="Float">200</_x003C_Length_x003E_k__BackingField>
-            <_x003C_YOffset_x003E_k__BackingField dataType="Float">200</_x003C_YOffset_x003E_k__BackingField>
-            <active dataType="Bool">true</active>
-            <gameobj dataType="ObjectRef">3636835828</gameobj>
-            <meter dataType="ObjectRef">3380519234</meter>
-            <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
-          </item>
           <item dataType="Struct" type="Overland_Military_Vehicles.PlayerController" id="1768541422">
             <_x003C_DefaultGun_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
               <contentPath dataType="String">Data\Weapons\GunLight.Prefab.res</contentPath>
@@ -174,6 +159,21 @@
             <gameobj dataType="ObjectRef">3636835828</gameobj>
             <gamepad />
           </item>
+          <item dataType="Struct" type="Overland_Military_Vehicles.MeterRenderer" id="4270973895">
+            <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
+              <A dataType="Byte">255</A>
+              <B dataType="Byte">0</B>
+              <G dataType="Byte">0</G>
+              <R dataType="Byte">255</R>
+            </_x003C_Color_x003E_k__BackingField>
+            <_x003C_Height_x003E_k__BackingField dataType="Float">20</_x003C_Height_x003E_k__BackingField>
+            <_x003C_Length_x003E_k__BackingField dataType="Float">200</_x003C_Length_x003E_k__BackingField>
+            <_x003C_YOffset_x003E_k__BackingField dataType="Float">200</_x003C_YOffset_x003E_k__BackingField>
+            <active dataType="Bool">true</active>
+            <gameobj dataType="ObjectRef">3636835828</gameobj>
+            <meter dataType="ObjectRef">3380519234</meter>
+            <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+          </item>
         </_items>
         <_size dataType="Int">7</_size>
       </compList>
@@ -187,7 +187,7 @@
             <item dataType="Type" id="1672522674" value="Overland_Military_Vehicles.PlayerController" />
             <item dataType="Type" id="1239943604" value="Overland_Military_Vehicles.DamageHandler" />
             <item dataType="Type" id="2851143822" value="Overland_Military_Vehicles.Flag" />
-            <item dataType="Type" id="679967296" value="Overland_Military_Vehicles.HealthBarRenderer" />
+            <item dataType="Type" id="679967296" value="Overland_Military_Vehicles.MeterRenderer" />
           </keys>
           <values dataType="Array" type="System.Object[]" id="3966829646">
             <item dataType="ObjectRef">3694113046</item>
@@ -196,7 +196,7 @@
             <item dataType="ObjectRef">1768541422</item>
             <item dataType="ObjectRef">3380519234</item>
             <item dataType="ObjectRef">1415748977</item>
-            <item dataType="ObjectRef">3364360801</item>
+            <item dataType="ObjectRef">4270973895</item>
           </values>
         </body>
       </compMap>
@@ -484,21 +484,6 @@
             </color>
             <gameobj dataType="ObjectRef">542661650</gameobj>
           </item>
-          <item dataType="Struct" type="Overland_Military_Vehicles.HealthBarRenderer" id="270186623">
-            <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
-              <A dataType="Byte">255</A>
-              <B dataType="Byte">0</B>
-              <G dataType="Byte">0</G>
-              <R dataType="Byte">255</R>
-            </_x003C_Color_x003E_k__BackingField>
-            <_x003C_Height_x003E_k__BackingField dataType="Float">20</_x003C_Height_x003E_k__BackingField>
-            <_x003C_Length_x003E_k__BackingField dataType="Float">200</_x003C_Length_x003E_k__BackingField>
-            <_x003C_YOffset_x003E_k__BackingField dataType="Float">200</_x003C_YOffset_x003E_k__BackingField>
-            <active dataType="Bool">true</active>
-            <gameobj dataType="ObjectRef">542661650</gameobj>
-            <meter dataType="ObjectRef">286345056</meter>
-            <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
-          </item>
           <item dataType="Struct" type="Overland_Military_Vehicles.PlayerController" id="2969334540">
             <_x003C_DefaultGun_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
               <contentPath dataType="String">Data\Weapons\GunLight.Prefab.res</contentPath>
@@ -515,6 +500,21 @@
             <body dataType="ObjectRef">77591138</body>
             <gameobj dataType="ObjectRef">542661650</gameobj>
             <gamepad />
+          </item>
+          <item dataType="Struct" type="Overland_Military_Vehicles.MeterRenderer" id="1176799717">
+            <_x003C_Color_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
+              <A dataType="Byte">255</A>
+              <B dataType="Byte">0</B>
+              <G dataType="Byte">0</G>
+              <R dataType="Byte">255</R>
+            </_x003C_Color_x003E_k__BackingField>
+            <_x003C_Height_x003E_k__BackingField dataType="Float">20</_x003C_Height_x003E_k__BackingField>
+            <_x003C_Length_x003E_k__BackingField dataType="Float">200</_x003C_Length_x003E_k__BackingField>
+            <_x003C_YOffset_x003E_k__BackingField dataType="Float">200</_x003C_YOffset_x003E_k__BackingField>
+            <active dataType="Bool">true</active>
+            <gameobj dataType="ObjectRef">542661650</gameobj>
+            <meter dataType="ObjectRef">286345056</meter>
+            <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
           </item>
         </_items>
         <_size dataType="Int">7</_size>
@@ -538,7 +538,7 @@
             <item dataType="ObjectRef">2969334540</item>
             <item dataType="ObjectRef">286345056</item>
             <item dataType="ObjectRef">2616542095</item>
-            <item dataType="ObjectRef">270186623</item>
+            <item dataType="ObjectRef">1176799717</item>
           </values>
         </body>
       </compMap>

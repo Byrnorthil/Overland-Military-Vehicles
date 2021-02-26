@@ -12,8 +12,8 @@ C:\Users\jedwa\Documents\New folder\Overland Military Vehicles\Source\Code\Adams
 C:\Users\jedwa\Documents\New folder\Overland Military Vehicles\Source\Code\AdamsLair.Duality.Samples.InputHandling\Content\Plugins\DualityPhysics.pdb
 C:\Users\jedwa\Documents\New folder\Overland Military Vehicles\Source\Code\AdamsLair.Duality.Samples.InputHandling\Content\Plugins\DualityPhysics.xml
 C:\Users\jedwa\Documents\New folder\Overland Military Vehicles\Source\Code\AdamsLair.Duality.Samples.InputHandling\Content\Plugins\NVorbis.xml
-C:\Users\jedwa\Documents\New folder\Overland Military Vehicles\Source\Code\AdamsLair.Duality.Samples.InputHandling\obj\Debug\InputHandling.csprojAssemblyReference.cache
 C:\Users\jedwa\Documents\New folder\Overland Military Vehicles\Source\Code\AdamsLair.Duality.Samples.InputHandling\obj\Debug\InputHandling.csproj.CoreCompileInputs.cache
 C:\Users\jedwa\Documents\New folder\Overland Military Vehicles\Source\Code\AdamsLair.Duality.Samples.InputHandling\obj\Debug\InputHandling.csproj.CopyComplete
 C:\Users\jedwa\Documents\New folder\Overland Military Vehicles\Source\Code\AdamsLair.Duality.Samples.InputHandling\obj\Debug\InputHandling.core.dll
 C:\Users\jedwa\Documents\New folder\Overland Military Vehicles\Source\Code\AdamsLair.Duality.Samples.InputHandling\obj\Debug\InputHandling.core.pdb
+C:\Users\jedwa\Documents\New folder\Overland Military Vehicles\Source\Code\AdamsLair.Duality.Samples.InputHandling\obj\Debug\InputHandling.csprojAssemblyReference.cache
