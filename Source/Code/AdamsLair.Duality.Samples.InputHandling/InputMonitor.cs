@@ -44,8 +44,8 @@ namespace InputHandling
 				canvas.DrawText(this.keyboardStatsText, 10, y, 0, null, Alignment.TopLeft, true);
 				y += 20 + (int)this.keyboardStatsText.TextMetrics.Size.Y;
 
-				//canvas.DrawText(this.joystickStatsText, 10, y, 0, null, Alignment.TopLeft, true);
-				//y += 20 + (int)this.joystickStatsText.TextMetrics.Size.Y;
+				canvas.DrawText(this.joystickStatsText, 10, y, 0, null, Alignment.TopLeft, true);
+				y += 20 + (int)this.joystickStatsText.TextMetrics.Size.Y;
 
 				canvas.DrawText(this.gamepadStatsText, 10, y, 0, null, Alignment.TopLeft, true);
 				y += 20 + (int)this.gamepadStatsText.TextMetrics.Size.Y;
