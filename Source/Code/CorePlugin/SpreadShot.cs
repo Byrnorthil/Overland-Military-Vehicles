@@ -17,13 +17,16 @@ namespace Overland_Military_Vehicles
         public int NumShots { get; set; } = 1;
         public override void Fire()
         {
+            List<GameObject> bullets = new List<GameObject>();
             for (int i = 0; i < NumShots; i++)
             {
                 GameObject bullet = NewProjectile();
                 RigidBody body = bullet.GetComponent<RigidBody>();
                 body.LinearVelocity = Vector2.FromAngleLength(GameObj.Transform.Angle + (float)(random.NextDouble() * 2 - 1) * Spread, Speed);
-                if (Scene != null) Scene.AddObject(bullet);
+                bullets.Add(bullet);
             }
+
+            if (Scene != null) Scene.AddObjects(bullets);
         }
     }
 }
