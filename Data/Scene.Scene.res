@@ -127,9 +127,9 @@
             <wrapTexture dataType="Bool">true</wrapTexture>
           </item>
           <item dataType="Struct" type="Overland_Military_Vehicles.DamageHandler" id="3380519234">
-            <_x003C_MaxHealth_x003E_k__BackingField dataType="Float">1000</_x003C_MaxHealth_x003E_k__BackingField>
+            <_x003C_MaxHealth_x003E_k__BackingField dataType="Float">500</_x003C_MaxHealth_x003E_k__BackingField>
             <active dataType="Bool">true</active>
-            <damageTaken dataType="Float">0</damageTaken>
+            <damageTaken dataType="Float">500</damageTaken>
             <gameobj dataType="ObjectRef">3636835828</gameobj>
           </item>
           <item dataType="Struct" type="Overland_Military_Vehicles.Flag" id="1415748977">
@@ -146,7 +146,7 @@
             <_x003C_DefaultGun_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
               <contentPath dataType="String">Data\Weapons\GunLight.Prefab.res</contentPath>
             </_x003C_DefaultGun_x003E_k__BackingField>
-            <_x003C_FireKey_x003E_k__BackingField dataType="Enum" type="Duality.Input.Key" name="Keypad0" value="67" />
+            <_x003C_FireKey_x003E_k__BackingField dataType="Enum" type="Duality.Input.Key" name="ControlRight" value="4" />
             <_x003C_Gamepad_x003E_k__BackingField dataType="Bool">false</_x003C_Gamepad_x003E_k__BackingField>
             <_x003C_LeftKey_x003E_k__BackingField dataType="Enum" type="Duality.Input.Key" name="Left" value="47" />
             <_x003C_ReverseKey_x003E_k__BackingField dataType="Enum" type="Duality.Input.Key" name="Down" value="46" />
@@ -469,7 +469,7 @@
             <wrapTexture dataType="Bool">true</wrapTexture>
           </item>
           <item dataType="Struct" type="Overland_Military_Vehicles.DamageHandler" id="286345056">
-            <_x003C_MaxHealth_x003E_k__BackingField dataType="Float">1000</_x003C_MaxHealth_x003E_k__BackingField>
+            <_x003C_MaxHealth_x003E_k__BackingField dataType="Float">500</_x003C_MaxHealth_x003E_k__BackingField>
             <active dataType="Bool">true</active>
             <damageTaken dataType="Float">0</damageTaken>
             <gameobj dataType="ObjectRef">542661650</gameobj>
@@ -553,6 +553,65 @@
       <name dataType="String">Player 2</name>
       <parent />
       <prefabLink />
+    </item>
+    <item dataType="Struct" type="Duality.GameObject" id="1316354725">
+      <active dataType="Bool">true</active>
+      <children />
+      <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2928900823">
+        <_items dataType="Array" type="Duality.Component[]" id="1098082318">
+          <item dataType="Struct" type="Duality.Components.Transform" id="1373631943">
+            <active dataType="Bool">true</active>
+            <gameobj dataType="ObjectRef">1316354725</gameobj>
+          </item>
+          <item dataType="Struct" type="Duality.Components.Physics.RigidBody" id="851284213">
+            <active dataType="Bool">true</active>
+            <gameobj dataType="ObjectRef">1316354725</gameobj>
+          </item>
+          <item dataType="Struct" type="Duality.Components.Renderers.RigidBodyRenderer" id="75361387">
+            <active dataType="Bool">true</active>
+            <gameobj dataType="ObjectRef">1316354725</gameobj>
+          </item>
+          <item dataType="Struct" type="Overland_Military_Vehicles.Pickup" id="127783220">
+            <active dataType="Bool">true</active>
+            <gameobj dataType="ObjectRef">1316354725</gameobj>
+          </item>
+        </_items>
+        <_size dataType="Int">4</_size>
+      </compList>
+      <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2427508160" surrogate="true">
+        <header />
+        <body>
+          <keys dataType="Array" type="System.Object[]" id="3067475805">
+            <item dataType="ObjectRef">598002460</item>
+            <item dataType="ObjectRef">2140495382</item>
+            <item dataType="ObjectRef">679098504</item>
+            <item dataType="Type" id="1270879590" value="Overland_Military_Vehicles.Pickup" />
+          </keys>
+          <values dataType="Array" type="System.Object[]" id="211771768">
+            <item dataType="ObjectRef">1373631943</item>
+            <item dataType="ObjectRef">851284213</item>
+            <item dataType="ObjectRef">75361387</item>
+            <item dataType="ObjectRef">127783220</item>
+          </values>
+        </body>
+      </compMap>
+      <compTransform dataType="ObjectRef">1373631943</compTransform>
+      <identifier dataType="Struct" type="System.Guid" surrogate="true">
+        <header>
+          <data dataType="Array" type="System.Byte[]" id="3240365303">0e3xj18rNEaI1uHw5poZBw==</data>
+        </header>
+        <body />
+      </identifier>
+      <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+      <name dataType="String">Weapon Pickup</name>
+      <parent />
+      <prefabLink dataType="Struct" type="Duality.Resources.PrefabLink" id="2169902325">
+        <changes />
+        <obj dataType="ObjectRef">1316354725</obj>
+        <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
+          <contentPath dataType="String">Data\Weapon Pickup.Prefab.res</contentPath>
+        </prefab>
+      </prefabLink>
     </item>
   </serializeObj>
   <visibilityStrategy dataType="Struct" type="Duality.Components.DefaultRendererVisibilityStrategy" id="2035693768" />
