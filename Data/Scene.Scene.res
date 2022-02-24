@@ -129,7 +129,7 @@
           <item dataType="Struct" type="Overland_Military_Vehicles.DamageHandler" id="3380519234">
             <_x003C_MaxHealth_x003E_k__BackingField dataType="Float">500</_x003C_MaxHealth_x003E_k__BackingField>
             <active dataType="Bool">true</active>
-            <damageTaken dataType="Float">500</damageTaken>
+            <damageTaken dataType="Float">0</damageTaken>
             <gameobj dataType="ObjectRef">3636835828</gameobj>
           </item>
           <item dataType="Struct" type="Overland_Military_Vehicles.Flag" id="1415748977">
