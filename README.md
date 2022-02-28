@@ -13,4 +13,4 @@ Controls:
 | Reverse  | S        | Down     |
 | TRight   | D        | Right    |
 | TLeft    | A        | Left     |
-| Fire     | Space    | NumPad 0 |
+| Fire     | Space    | RightCtrl|
